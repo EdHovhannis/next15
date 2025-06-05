@@ -1,0 +1,17 @@
+.navbar_container {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-primary);
+  color: var(--color-text-secondary);
+  padding: 8px 32px;
+}
+.navbar_items {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 16px;
+}
+.navbar_item:hover {
+  cursor: pointer;
+  color: #e0a700;
+}
