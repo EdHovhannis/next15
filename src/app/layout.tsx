@@ -14,7 +14,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Navbar /> {children}
+        <Navbar />
+        <div className="centered">{children}</div>
       </body>
     </html>
   );
