@@ -1,6 +1,5 @@
 import { Card } from "@/components/ui";
 import React from "react";
-import style from "./about.module.css";
 
 export default function About() {
   return (
