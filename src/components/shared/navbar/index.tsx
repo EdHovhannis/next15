@@ -18,6 +18,9 @@ export const Navbar = () => {
         <li className={style.navbar_item}>
           <Link href={"/blog"}> Blog </Link>
         </li>
+        <li className={style.navbar_item}>
+          <Link href={"/products"}> Products </Link>
+        </li>
       </ul>
     </nav>
   );
